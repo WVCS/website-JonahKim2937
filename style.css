@@ -1,3 +1,20 @@
-body {
-
+  h3 {
+  color: Blue;
+  text-decoration: overline underline 5px salmon dashed;
+  letter-spacing: 3px;
+  text-shadow 2px 2px 5px red;
 }
+
+body {
+  background-color: wheat;
+}
+  img:hover {
+    width: 300px;
+    border: dotted purple 10px;
+    
+  }
+  h3:hover {
+    text-decoration: underline wavy purple 6px;
+    font-size: 200%;
+    text-transform: uppercase;
+  }
