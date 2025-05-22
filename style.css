@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: white;
+  background-color: wheat;
 }
   img:hover {
     width: 300px;
@@ -18,3 +18,28 @@ body {
     font-size: 200%;
     text-transform: uppercase;
   }
+
+
+
+
+nav {
+  list-style-type: none;
+  background-color: blue;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  float: left;
+  padding: 15px 200px;
+}
+
+li a:hover {
+  background-coolor: wheat;
+  color: black;
+}
